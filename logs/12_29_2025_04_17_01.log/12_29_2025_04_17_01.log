@@ -1,0 +1,5 @@
+[ 2025-12-29 04:17:01,536 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-12-29 04:17:01,539 ] 97 werkzeug - INFO -  * Debugger PIN: 134-261-632
+[ 2025-12-29 04:17:12,143 ] 43 root - INFO - Invalid due_date format: 2025-13-25
+[ 2025-12-29 04:17:12,145 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 04:17:12] "[31m[1mPOST /add_task HTTP/1.1[0m" 400 -
+[ 2025-12-29 04:18:09,352 ] 97 werkzeug - INFO -  * Detected change in 'E:\\To_Do_list_Flask\\app.py', reloading

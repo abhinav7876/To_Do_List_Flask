@@ -1,0 +1,5 @@
+[ 2025-12-29 04:13:51,563 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-12-29 04:13:51,566 ] 97 werkzeug - INFO -  * Debugger PIN: 134-261-632
+[ 2025-12-29 04:14:14,812 ] 62 root - ERROR - Error creating task: time data '2025-13-25' does not match format '%Y-%m-%d'
+[ 2025-12-29 04:14:14,820 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 04:14:14] "[35m[1mPOST /add_task HTTP/1.1[0m" 500 -
+[ 2025-12-29 04:17:00,953 ] 97 werkzeug - INFO -  * Detected change in 'E:\\To_Do_list_Flask\\app.py', reloading

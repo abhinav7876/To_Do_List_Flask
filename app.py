@@ -35,7 +35,15 @@ def create_task():
                 logging.info("Title cannot be empty for task created with ID: %s",data["ID"])
                 return jsonify({"error": "Title cannot be empty"}), 400
             if data.get("due_date"):
-                due_date = datetime.strptime(data["due_date"], "%Y-%m-%d").date()
+                try:
+                    due_date = datetime.strptime(data["due_date"], "%Y-%m-%d").date()
+                except ValueError:
+                    logging.info("Invalid due_date format: %s", data.get("due_date"))
+                    return jsonify({
+                        "error": "Invalid due_date format. Use YYYY-MM-DD"
+                    }), 400
+            else:
+                due_date = None
             if (due_date < today and (data.get("status") == "Pending")):
                 logging.info("Cannot create task with due date less than current date for task created with ID: and status: %s",data["ID"])
                 return jsonify({"error": "Cannot create task with due date less than current date for task with status: %s" % data.get("status")}), 400
@@ -57,7 +65,7 @@ def create_task():
     except mysql.connector.Error as e:
         if e.errno == ER_DUP_ENTRY:
             return jsonify({"error": "Duplicate ID, Task Id already present"}), 409
-        return jsonify({"error": "Database error"}), 500
+        return jsonify({"error": "Internal server error"}), 500
     except Exception as e:
         logging.error("Error creating task: %s", str(e))      
         raise CustomException(e,sys)
@@ -171,9 +179,19 @@ def update_task(id):
             logging.info("Title cannot be empty for task to be modified with ID: %s",data["ID"])
             return jsonify({"error": "Title cannot be empty for task to be modified with ID %s" % id}), 400
         if data.get("due_date"):
-            due_date = datetime.strptime(data["due_date"], "%Y-%m-%d").date()
+                try:
+                    due_date = datetime.strptime(data["due_date"], "%Y-%m-%d").date()
+                except ValueError:
+                    logging.info("Invalid due_date format: %s", data.get("due_date"))
+                    return jsonify({
+                        "error": "Invalid due_date format. Use YYYY-MM-DD"
+                    }), 400
+        else:
+            due_date = None
         if ((due_date < today) and (data.get("status") != "Completed")):
             data["status"] = "Overdue"
+            logging.info("Status updated as overdue for task to be modified with ID: %s as new due date is less than current date",data["ID"])
+            return jsonify({"message": "Task updated with id %s and status updated as %s" % (id, data.get("status"))}), 200
         cursor.execute(
             "UPDATE tasks SET title=%s, description=%s, due_date=%s, status=%s WHERE id=%s",
             (
