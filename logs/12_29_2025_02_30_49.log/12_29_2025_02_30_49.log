@@ -1,0 +1,13 @@
+[ 2025-12-29 02:30:49,538 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-12-29 02:30:49,542 ] 97 werkzeug - INFO -  * Debugger PIN: 134-261-632
+[ 2025-12-29 02:33:00,319 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 02:33:00] "GET /add_task HTTP/1.1" 200 -
+[ 2025-12-29 02:33:03,416 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 02:33:03] "GET / HTTP/1.1" 200 -
+[ 2025-12-29 02:33:09,730 ] 152 root - INFO - Fetched all overdue tasks
+[ 2025-12-29 02:33:09,730 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 02:33:09] "GET /tasks/overdue HTTP/1.1" 200 -
+[ 2025-12-29 02:33:12,464 ] 138 root - INFO - Fetched all pending tasks
+[ 2025-12-29 02:33:12,465 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 02:33:12] "GET /tasks/pending HTTP/1.1" 200 -
+[ 2025-12-29 02:33:14,420 ] 124 root - INFO - Fetched all completed tasks
+[ 2025-12-29 02:33:14,421 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 02:33:14] "GET /tasks/completed HTTP/1.1" 200 -
+[ 2025-12-29 02:33:16,231 ] 86 root - INFO - Fetched all tasks
+[ 2025-12-29 02:33:16,231 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 02:33:16] "GET /tasks HTTP/1.1" 200 -
+[ 2025-12-29 02:33:18,287 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 02:33:18] "GET /add_task HTTP/1.1" 200 -

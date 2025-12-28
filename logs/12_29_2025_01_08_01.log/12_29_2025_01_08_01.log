@@ -1,0 +1,9 @@
+[ 2025-12-29 01:08:01,259 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-12-29 01:08:01,263 ] 97 werkzeug - INFO -  * Debugger PIN: 134-261-632
+[ 2025-12-29 01:08:18,726 ] 244 root - ERROR - Error adding task via web interface: 1062 (23000): Duplicate entry '25' for key 'tasks.PRIMARY'
+[ 2025-12-29 01:08:18,727 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 01:08:18] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+[ 2025-12-29 01:09:26,111 ] 241 root - INFO - Task added with ID: 26
+[ 2025-12-29 01:09:26,112 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 01:09:26] "[35m[1mPOST /add HTTP/1.1[0m" 201 -
+[ 2025-12-29 01:09:29,817 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 01:09:29] "GET /add HTTP/1.1" 200 -
+[ 2025-12-29 01:09:33,586 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 01:09:33] "GET / HTTP/1.1" 200 -
+[ 2025-12-29 01:10:10,470 ] 97 werkzeug - INFO -  * Detected change in 'E:\\To_Do_list_Flask\\app.py', reloading

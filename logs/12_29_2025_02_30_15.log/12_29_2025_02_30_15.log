@@ -1,0 +1,7 @@
+[ 2025-12-29 02:30:15,284 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-12-29 02:30:15,288 ] 97 werkzeug - INFO -  * Debugger PIN: 134-261-632
+[ 2025-12-29 02:30:17,978 ] 192 root - INFO - Task updated with ID: 2900
+[ 2025-12-29 02:30:17,981 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 02:30:17] "PUT /tasks/2900 HTTP/1.1" 200 -
+[ 2025-12-29 02:30:26,840 ] 210 root - INFO - Task deleted with ID: 2900
+[ 2025-12-29 02:30:26,841 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 02:30:26] "DELETE /tasks/2900 HTTP/1.1" 200 -
+[ 2025-12-29 02:30:49,026 ] 97 werkzeug - INFO -  * Detected change in 'E:\\To_Do_list_Flask\\app.py', reloading

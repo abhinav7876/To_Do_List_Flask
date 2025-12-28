@@ -1,0 +1,19 @@
+[ 2025-12-29 02:18:27,182 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-12-29 02:18:27,185 ] 97 werkzeug - INFO -  * Debugger PIN: 134-261-632
+[ 2025-12-29 02:18:31,268 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 02:18:31] "GET /add_task HTTP/1.1" 200 -
+[ 2025-12-29 02:18:33,582 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 02:18:33] "GET /add_task HTTP/1.1" 200 -
+[ 2025-12-29 02:18:38,926 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 02:18:38] "[31m[1mPOST /add_task HTTP/1.1[0m" 409 -
+[ 2025-12-29 02:18:46,704 ] 35 root - INFO - Cannot create task with due date less than current date for task created with ID: and status: 2511
+[ 2025-12-29 02:18:46,705 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 02:18:46] "[31m[1mPOST /add_task HTTP/1.1[0m" 400 -
+[ 2025-12-29 02:18:52,928 ] 50 root - INFO - Task created with ID: 2511
+[ 2025-12-29 02:18:52,929 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 02:18:52] "[35m[1mPOST /add_task HTTP/1.1[0m" 201 -
+[ 2025-12-29 02:18:55,988 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 02:18:55] "GET /add_task HTTP/1.1" 200 -
+[ 2025-12-29 02:19:21,810 ] 119 root - INFO - Fetched all completed tasks
+[ 2025-12-29 02:19:21,811 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 02:19:21] "GET /tasks/completed HTTP/1.1" 200 -
+[ 2025-12-29 02:19:23,681 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 02:19:23] "GET / HTTP/1.1" 200 -
+[ 2025-12-29 02:19:41,851 ] 57 root - ERROR - Error creating task: 'ID'
+[ 2025-12-29 02:19:41,857 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 02:19:41] "[35m[1mPOST /add_task HTTP/1.1[0m" 500 -
+[ 2025-12-29 02:20:45,344 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 02:20:45] "[31m[1mPOST /add_task HTTP/1.1[0m" 409 -
+[ 2025-12-29 02:20:51,988 ] 50 root - INFO - Task created with ID: 2900
+[ 2025-12-29 02:20:51,988 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 02:20:51] "[35m[1mPOST /add_task HTTP/1.1[0m" 201 -
+[ 2025-12-29 02:22:07,107 ] 97 werkzeug - INFO -  * Detected change in 'E:\\To_Do_list_Flask\\app.py', reloading

@@ -1,0 +1,23 @@
+[ 2025-12-29 00:52:55,978 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-12-29 00:52:55,981 ] 97 werkzeug - INFO -  * Debugger PIN: 134-261-632
+[ 2025-12-29 00:53:43,768 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:53:43] "GET / HTTP/1.1" 200 -
+[ 2025-12-29 00:53:45,971 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:53:45] "GET /add HTTP/1.1" 200 -
+[ 2025-12-29 00:54:00,931 ] 244 root - ERROR - Error adding task via web interface: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+[ 2025-12-29 00:54:00,955 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:54:00] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+[ 2025-12-29 00:54:01,150 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:54:01] "[36mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:54:01,152 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:54:01] "[36mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:54:01,194 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:54:01] "GET /add?__debugger__=yes&cmd=resource&f=console.png&s=Tj0Zut8vXQ2UtLhS8gxP HTTP/1.1" 200 -
+[ 2025-12-29 00:55:17,519 ] 244 root - ERROR - Error adding task via web interface: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+[ 2025-12-29 00:55:17,525 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:55:17] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+[ 2025-12-29 00:55:17,537 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:55:17] "[36mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:55:17,538 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:55:17] "[36mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:55:17,553 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:55:17] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png&s=Tj0Zut8vXQ2UtLhS8gxP HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:55:17,582 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:55:17] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:55:21,333 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:55:21] "GET / HTTP/1.1" 200 -
+[ 2025-12-29 00:55:23,522 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:55:23] "GET /add HTTP/1.1" 200 -
+[ 2025-12-29 00:55:35,304 ] 244 root - ERROR - Error adding task via web interface: name 'data' is not defined
+[ 2025-12-29 00:55:35,309 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:55:35] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+[ 2025-12-29 00:55:35,319 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:55:35] "[36mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:55:35,321 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:55:35] "[36mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:55:35,339 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:55:35] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png&s=Tj0Zut8vXQ2UtLhS8gxP HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:56:27,983 ] 97 werkzeug - INFO -  * Detected change in 'E:\\To_Do_list_Flask\\app.py', reloading

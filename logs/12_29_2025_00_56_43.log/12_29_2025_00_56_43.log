@@ -1,0 +1,17 @@
+[ 2025-12-29 00:56:43,325 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-12-29 00:56:43,329 ] 97 werkzeug - INFO -  * Debugger PIN: 134-261-632
+[ 2025-12-29 00:56:47,592 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:56:47] "GET / HTTP/1.1" 200 -
+[ 2025-12-29 00:56:49,795 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:56:49] "GET /add HTTP/1.1" 200 -
+[ 2025-12-29 00:56:57,982 ] 244 root - ERROR - Error adding task via web interface: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+[ 2025-12-29 00:56:57,996 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:56:57] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+[ 2025-12-29 00:56:58,133 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:56:58] "[36mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:56:58,136 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:56:58] "[36mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:56:58,149 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:56:58] "GET /add?__debugger__=yes&cmd=resource&f=console.png&s=Q8xz7NJ93oW4MzqLosGT HTTP/1.1" 200 -
+[ 2025-12-29 00:57:55,742 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:57:55] "GET / HTTP/1.1" 200 -
+[ 2025-12-29 00:57:57,224 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:57:57] "GET /add HTTP/1.1" 200 -
+[ 2025-12-29 00:58:05,658 ] 244 root - ERROR - Error adding task via web interface: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+[ 2025-12-29 00:58:05,663 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:58:05] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+[ 2025-12-29 00:58:05,675 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:58:05] "[36mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:58:05,676 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:58:05] "[36mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:58:05,685 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:58:05] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png&s=Q8xz7NJ93oW4MzqLosGT HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:59:31,319 ] 97 werkzeug - INFO -  * Detected change in 'E:\\To_Do_list_Flask\\app.py', reloading

@@ -4,17 +4,14 @@
     <title>To-Do App</title>
 </head>
 <body>
-    <h1>Flask To-Do (MySQL)</h1>
-        <a href="/add">Add Task</a>
-        <ul>
-            {% for task in tasks %}
-                <li>
-                    <b>{{ task.ID }}</b>
-                    <b>{{ task.title }}</b> - {{ task.status }} <br>
-                    {{ task.description }} | Due: {{ task.due_date }}
-                </li>
-            {% endfor %}
-        </ul>
+    <h1>Welcome to Flask To-Do App</h1>
+
+    <a href="/tasks">Fetch All Task</a><br><br>
+    <a href="/tasks/completed">Completed Tasks</a><br><br>
+    <a href="/tasks/pending">Pending Tasks</a><br><br>
+    <a href="/tasks/overdue">Overdue Tasks</a><br><br>
+    <a href="/add_task">Add New Task</a>
+
 </body>
 </html>
 

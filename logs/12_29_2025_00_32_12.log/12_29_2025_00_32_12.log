@@ -1,0 +1,54 @@
+[ 2025-12-29 00:32:12,457 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[ 2025-12-29 00:32:12,457 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2025-12-29 00:32:12,459 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-12-29 00:32:12,868 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-12-29 00:32:12,871 ] 97 werkzeug - INFO -  * Debugger PIN: 134-261-632
+[ 2025-12-29 00:32:19,106 ] 92 root - INFO - Fetched task with ID: 1
+[ 2025-12-29 00:32:19,107 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:32:19] "GET /tasks/1 HTTP/1.1" 200 -
+[ 2025-12-29 00:32:49,480 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:32:49] "GET / HTTP/1.1" 200 -
+[ 2025-12-29 00:33:05,629 ] 71 root - INFO - Fetched all tasks
+[ 2025-12-29 00:33:05,629 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:33:05] "GET /tasks HTTP/1.1" 200 -
+[ 2025-12-29 00:33:07,838 ] 109 root - INFO - Fetched all completed tasks
+[ 2025-12-29 00:33:07,839 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:33:07] "GET /tasks/completed HTTP/1.1" 200 -
+[ 2025-12-29 00:33:11,663 ] 123 root - INFO - Fetched all pending tasks
+[ 2025-12-29 00:33:11,663 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:33:11] "GET /tasks/pending HTTP/1.1" 200 -
+[ 2025-12-29 00:33:13,770 ] 137 root - INFO - Fetched all overdue tasks
+[ 2025-12-29 00:33:13,770 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:33:13] "GET /tasks/overdue HTTP/1.1" 200 -
+[ 2025-12-29 00:33:16,644 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:33:16] "GET / HTTP/1.1" 200 -
+[ 2025-12-29 00:36:11,694 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:36:11] "GET / HTTP/1.1" 200 -
+[ 2025-12-29 00:38:30,995 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:38:30] "GET / HTTP/1.1" 200 -
+[ 2025-12-29 00:38:33,585 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:38:33] "GET / HTTP/1.1" 200 -
+[ 2025-12-29 00:38:56,133 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:38:56] "GET / HTTP/1.1" 200 -
+[ 2025-12-29 00:39:03,959 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:39:03] "GET / HTTP/1.1" 200 -
+[ 2025-12-29 00:44:29,342 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:44:29] "GET / HTTP/1.1" 200 -
+[ 2025-12-29 00:44:51,320 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:44:51] "[33mGET /3 HTTP/1.1[0m" 404 -
+[ 2025-12-29 00:45:14,374 ] 85 root - INFO - No task found with ID: 3
+[ 2025-12-29 00:45:14,376 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:45:14] "[33mGET /tasks/3 HTTP/1.1[0m" 404 -
+[ 2025-12-29 00:45:19,991 ] 92 root - INFO - Fetched task with ID: 1
+[ 2025-12-29 00:45:19,991 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:45:19] "GET /tasks/1 HTTP/1.1" 200 -
+[ 2025-12-29 00:45:56,060 ] 97 werkzeug - INFO -  * Detected change in 'E:\\To_Do_list_Flask\\app.py', reloading
+[ 2025-12-29 00:45:56,543 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-12-29 00:52:06,179 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-12-29 00:52:55,519 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-12-29 00:56:28,029 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-12-29 00:56:42,817 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-12-29 00:59:31,366 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-12-29 01:00:35,055 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-12-29 01:06:10,236 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-12-29 01:08:00,786 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-12-29 01:10:10,522 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-12-29 01:10:20,392 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-12-29 01:10:34,133 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-12-29 01:11:30,670 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-12-29 01:20:29,183 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-12-29 01:21:43,234 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-12-29 01:22:22,629 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-12-29 01:29:48,725 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-12-29 01:33:38,572 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-12-29 01:34:18,965 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-12-29 01:34:36,914 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-12-29 01:35:24,429 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-12-29 01:37:23,266 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-12-29 01:39:06,935 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-12-29 01:52:28,376 ] 97 werkzeug - INFO -  * Restarting with stat

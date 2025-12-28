@@ -1,0 +1,14 @@
+[ 2025-12-28 20:44:02,380 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-12-28 20:44:02,383 ] 97 werkzeug - INFO -  * Debugger PIN: 134-261-632
+[ 2025-12-28 20:44:40,026 ] 214 root - INFO - Fetched all tasks for web interface
+[ 2025-12-28 20:44:40,030 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 20:44:40] "GET / HTTP/1.1" 200 -
+[ 2025-12-28 20:44:42,136 ] 214 root - INFO - Fetched all tasks for web interface
+[ 2025-12-28 20:44:42,137 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 20:44:42] "GET / HTTP/1.1" 200 -
+[ 2025-12-28 20:46:04,021 ] 244 root - ERROR - Error adding task via web interface: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+[ 2025-12-28 20:46:04,032 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 20:46:04] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+[ 2025-12-28 20:52:46,437 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 20:52:46] "[33mGET /1 HTTP/1.1[0m" 404 -
+[ 2025-12-28 20:53:18,562 ] 71 root - INFO - Fetched all tasks
+[ 2025-12-28 20:53:18,563 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 20:53:18] "GET /api/tasks HTTP/1.1" 200 -
+[ 2025-12-28 20:53:29,963 ] 92 root - INFO - Fetched task with ID: 1
+[ 2025-12-28 20:53:29,964 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 20:53:29] "GET /api/tasks/1 HTTP/1.1" 200 -
+[ 2025-12-28 21:01:15,715 ] 97 werkzeug - INFO -  * Detected change in 'E:\\To_Do_list_Flask\\app.py', reloading

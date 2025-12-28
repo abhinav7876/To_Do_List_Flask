@@ -10,7 +10,11 @@
     <input name="title" placeholder="Title" required><br><br>
     <textarea name="description" placeholder="Description"></textarea><br><br>
     <input type="date" name="due_date"><br><br>
-    <input name="status" placeholder="Status" required><br><br>
+    <select name="status">
+        <option value="Pending">Pending</option>
+        <option value="Completed">Completed</option>
+        <option value="Overdue">Overdue</option>
+    </select><br><br>
     <button type="submit">Add Task</button>
 </form>
 </body>

@@ -1,0 +1,23 @@
+[ 2025-12-29 01:39:07,435 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-12-29 01:39:07,439 ] 97 werkzeug - INFO -  * Debugger PIN: 134-261-632
+[ 2025-12-29 01:39:10,050 ] 31 root - INFO - Cannot create task with due date less than current date for task created with ID: and status: 29
+[ 2025-12-29 01:39:10,051 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 01:39:10] "[31m[1mPOST /add_task HTTP/1.1[0m" 400 -
+[ 2025-12-29 01:39:43,076 ] 46 root - INFO - Task created with ID: 29
+[ 2025-12-29 01:39:43,077 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 01:39:43] "[35m[1mPOST /add_task HTTP/1.1[0m" 201 -
+[ 2025-12-29 01:40:24,496 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 01:40:24] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+[ 2025-12-29 01:40:30,822 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 01:40:30] "GET / HTTP/1.1" 200 -
+[ 2025-12-29 01:40:37,925 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 01:40:37] "GET / HTTP/1.1" 200 -
+[ 2025-12-29 01:42:09,846 ] 76 root - INFO - Fetched all tasks
+[ 2025-12-29 01:42:09,847 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 01:42:09] "GET /tasks HTTP/1.1" 200 -
+[ 2025-12-29 01:42:46,385 ] 114 root - INFO - Fetched all completed tasks
+[ 2025-12-29 01:42:46,386 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 01:42:46] "GET /tasks/completed HTTP/1.1" 200 -
+[ 2025-12-29 01:43:31,690 ] 52 root - ERROR - Error creating task: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+[ 2025-12-29 01:43:31,799 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 01:43:31] "[35m[1mPOST /add_task HTTP/1.1[0m" 500 -
+[ 2025-12-29 01:44:04,059 ] 52 root - ERROR - Error creating task: 400 Bad Request: Failed to decode JSON object: Expecting property name enclosed in double quotes: line 6 column 1 (char 81)
+[ 2025-12-29 01:44:04,711 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 01:44:04] "[35m[1mPOST /add_task HTTP/1.1[0m" 500 -
+[ 2025-12-29 01:44:12,510 ] 23 root - INFO - Invalid status type, Status can be only Pending, Completed, or Overdue and cannot be empty. Cannot create task with ID: 29
+[ 2025-12-29 01:44:12,511 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 01:44:12] "[31m[1mPOST /add_task HTTP/1.1[0m" 400 -
+[ 2025-12-29 01:46:37,799 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 01:46:37] "[33mGET /api/tasks HTTP/1.1[0m" 404 -
+[ 2025-12-29 01:46:48,204 ] 76 root - INFO - Fetched all tasks
+[ 2025-12-29 01:46:48,204 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 01:46:48] "GET /tasks HTTP/1.1" 200 -
+[ 2025-12-29 01:52:28,322 ] 97 werkzeug - INFO -  * Detected change in 'E:\\To_Do_list_Flask\\app.py', reloading

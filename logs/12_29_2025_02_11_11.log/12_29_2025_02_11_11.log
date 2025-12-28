@@ -1,0 +1,8 @@
+[ 2025-12-29 02:11:11,722 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-12-29 02:11:11,726 ] 97 werkzeug - INFO -  * Debugger PIN: 134-261-632
+[ 2025-12-29 02:11:14,478 ] 58 root - ERROR - Error creating task: 'id'
+[ 2025-12-29 02:11:14,484 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 02:11:14] "[35m[1mGET /add_task HTTP/1.1[0m" 500 -
+[ 2025-12-29 02:11:14,579 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 02:11:14] "[36mGET /add_task?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-12-29 02:11:14,802 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 02:11:14] "[36mGET /add_task?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-12-29 02:11:15,130 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 02:11:15] "GET /add_task?__debugger__=yes&cmd=resource&f=console.png&s=ZwcNMuVnp37rKzcGjJLR HTTP/1.1" 200 -
+[ 2025-12-29 02:14:03,033 ] 97 werkzeug - INFO -  * Detected change in 'E:\\To_Do_list_Flask\\app.py', reloading

@@ -1,0 +1,12 @@
+[ 2025-12-29 01:00:35,544 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-12-29 01:00:35,547 ] 97 werkzeug - INFO -  * Debugger PIN: 134-261-632
+[ 2025-12-29 01:00:38,198 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 01:00:38] "GET /add HTTP/1.1" 200 -
+[ 2025-12-29 01:00:48,319 ] 241 root - INFO - Task added with ID: 25
+[ 2025-12-29 01:00:48,321 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 01:00:48] "[35m[1mPOST /add HTTP/1.1[0m" 201 -
+[ 2025-12-29 01:00:51,945 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 01:00:51] "GET /add HTTP/1.1" 200 -
+[ 2025-12-29 01:00:57,639 ] 244 root - ERROR - Error adding task via web interface: 1062 (23000): Duplicate entry '25' for key 'tasks.PRIMARY'
+[ 2025-12-29 01:00:57,736 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 01:00:57] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+[ 2025-12-29 01:00:57,881 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 01:00:57] "[36mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-12-29 01:00:57,884 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 01:00:57] "[36mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-12-29 01:00:57,899 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 01:00:57] "GET /add?__debugger__=yes&cmd=resource&f=console.png&s=QpFIOu2coYqBACyBEkef HTTP/1.1" 200 -
+[ 2025-12-29 01:06:10,181 ] 97 werkzeug - INFO -  * Detected change in 'E:\\To_Do_list_Flask\\app.py', reloading

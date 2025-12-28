@@ -1,0 +1,68 @@
+[ 2025-12-29 00:03:23,038 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-12-29 00:03:23,041 ] 97 werkzeug - INFO -  * Debugger PIN: 134-261-632
+[ 2025-12-29 00:06:22,478 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:06:22] "GET / HTTP/1.1" 200 -
+[ 2025-12-29 00:06:26,397 ] 71 root - INFO - Fetched all tasks
+[ 2025-12-29 00:06:26,398 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:06:26] "GET /tasks HTTP/1.1" 200 -
+[ 2025-12-29 00:06:31,033 ] 109 root - INFO - Fetched all completed tasks
+[ 2025-12-29 00:06:31,034 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:06:31] "GET /tasks/completed HTTP/1.1" 200 -
+[ 2025-12-29 00:06:34,993 ] 123 root - INFO - Fetched all pending tasks
+[ 2025-12-29 00:06:35,008 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:06:35] "GET /tasks/pending HTTP/1.1" 200 -
+[ 2025-12-29 00:06:38,285 ] 137 root - INFO - Fetched all overdue tasks
+[ 2025-12-29 00:06:38,286 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:06:38] "GET /tasks/overdue HTTP/1.1" 200 -
+[ 2025-12-29 00:06:43,908 ] 137 root - INFO - Fetched all overdue tasks
+[ 2025-12-29 00:06:43,909 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:06:43] "GET /tasks/overdue HTTP/1.1" 200 -
+[ 2025-12-29 00:08:32,207 ] 123 root - INFO - Fetched all pending tasks
+[ 2025-12-29 00:08:32,207 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:08:32] "GET /tasks/pending HTTP/1.1" 200 -
+[ 2025-12-29 00:08:41,672 ] 137 root - INFO - Fetched all overdue tasks
+[ 2025-12-29 00:08:41,672 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:08:41] "GET /tasks/overdue HTTP/1.1" 200 -
+[ 2025-12-29 00:16:03,213 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:16:03] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2025-12-29 00:16:03,418 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:16:03] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[ 2025-12-29 00:16:03,421 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:16:03] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[ 2025-12-29 00:16:03,456 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:16:03] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=9LuDza3iUz09jubSToJp HTTP/1.1" 200 -
+[ 2025-12-29 00:16:03,518 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:16:03] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[ 2025-12-29 00:16:26,283 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:16:26] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2025-12-29 00:16:26,295 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:16:26] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:16:26,297 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:16:26] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:16:26,308 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:16:26] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=9LuDza3iUz09jubSToJp HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:16:26,340 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:16:26] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:16:29,761 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:16:29] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2025-12-29 00:16:29,781 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:16:29] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:16:29,782 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:16:29] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:16:29,790 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:16:29] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=9LuDza3iUz09jubSToJp HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:17:10,939 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:17:10] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2025-12-29 00:17:10,952 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:17:10] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:17:10,953 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:17:10] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:17:10,962 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:17:10] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=9LuDza3iUz09jubSToJp HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:17:11,141 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:17:11] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:17:34,665 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:17:34] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2025-12-29 00:17:34,678 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:17:34] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:17:34,679 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:17:34] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:17:34,701 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:17:34] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=9LuDza3iUz09jubSToJp HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:17:34,744 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:17:34] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:17:35,659 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:17:35] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2025-12-29 00:17:35,671 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:17:35] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:17:35,673 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:17:35] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:17:35,688 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:17:35] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=9LuDza3iUz09jubSToJp HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:17:35,722 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:17:35] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:17:35,856 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:17:35] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2025-12-29 00:17:35,870 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:17:35] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:17:35,877 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:17:35] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:17:35,897 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:17:35] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=9LuDza3iUz09jubSToJp HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:17:35,939 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:17:35] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:17:45,106 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:17:45] "GET / HTTP/1.1" 200 -
+[ 2025-12-29 00:18:23,955 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:18:23] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2025-12-29 00:18:23,967 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:18:23] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:18:23,969 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:18:23] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:18:23,987 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:18:23] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=9LuDza3iUz09jubSToJp HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:18:24,018 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:18:24] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:19:53,685 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:19:53] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2025-12-29 00:19:53,700 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:19:53] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:19:53,701 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:19:53] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:19:53,719 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:19:53] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=9LuDza3iUz09jubSToJp HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:19:53,759 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:19:53] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2025-12-29 00:20:49,929 ] 92 root - INFO - Fetched task with ID: 1
+[ 2025-12-29 00:20:49,932 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:20:49] "GET /tasks/1 HTTP/1.1" 200 -
+[ 2025-12-29 00:28:18,226 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:28:18] "GET / HTTP/1.1" 200 -
+[ 2025-12-29 00:28:21,173 ] 92 root - INFO - Fetched task with ID: 1
+[ 2025-12-29 00:28:21,173 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 00:28:21] "GET /tasks/1 HTTP/1.1" 200 -
+[ 2025-12-29 00:30:22,521 ] 97 werkzeug - INFO -  * Detected change in 'E:\\To_Do_list_Flask\\app.py', reloading
