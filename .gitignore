@@ -1,7 +1,8 @@
-env
-env/
+.env
+.env/
 venv/
 venv
 .venv
 .venv/
 __pycache__/
+env
