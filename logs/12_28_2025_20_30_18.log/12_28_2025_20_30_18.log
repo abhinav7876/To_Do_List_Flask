@@ -1,0 +1,11 @@
+[ 2025-12-28 20:30:18,117 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-12-28 20:30:18,121 ] 97 werkzeug - INFO -  * Debugger PIN: 134-261-632
+[ 2025-12-28 20:30:33,032 ] 71 root - INFO - Fetched all tasks
+[ 2025-12-28 20:30:33,033 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 20:30:33] "GET /api/tasks HTTP/1.1" 200 -
+[ 2025-12-28 20:30:50,526 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 20:30:50] "GET / HTTP/1.1" 200 -
+[ 2025-12-28 20:30:58,019 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 20:30:58] "GET /add HTTP/1.1" 200 -
+[ 2025-12-28 20:31:12,745 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 20:31:12] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+[ 2025-12-28 20:31:12,934 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 20:31:12] "[36mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-12-28 20:31:12,938 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 20:31:12] "[36mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-12-28 20:31:12,976 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 20:31:12] "GET /add?__debugger__=yes&cmd=resource&f=console.png&s=ilLiJLsU7MiX61WlHvON HTTP/1.1" 200 -
+[ 2025-12-28 20:32:06,689 ] 97 werkzeug - INFO -  * Detected change in 'E:\\To_Do_list_Flask\\app.py', reloading

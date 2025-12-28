@@ -1,0 +1,6 @@
+[ 2025-12-28 20:10:38,844 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-12-28 20:10:38,848 ] 97 werkzeug - INFO -  * Debugger PIN: 134-261-632
+[ 2025-12-28 20:10:46,924 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 20:10:46] "[33mDELETE /api/tasks/19 HTTP/1.1[0m" 404 -
+[ 2025-12-28 20:12:23,390 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 20:12:23] "GET / HTTP/1.1" 200 -
+[ 2025-12-28 20:12:37,797 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 20:12:37] "GET /add HTTP/1.1" 200 -
+[ 2025-12-28 20:17:40,151 ] 97 werkzeug - INFO -  * Detected change in 'E:\\To_Do_list_Flask\\app.py', reloading

@@ -1,0 +1,5 @@
+[ 2025-12-28 20:07:44,213 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-12-28 20:07:44,217 ] 97 werkzeug - INFO -  * Debugger PIN: 134-261-632
+[ 2025-12-28 20:07:53,202 ] 154 root - INFO - Title cannot be empty for task to be modified with ID: 13
+[ 2025-12-28 20:07:53,204 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 20:07:53] "[31m[1mPUT /api/tasks/13 HTTP/1.1[0m" 400 -
+[ 2025-12-28 20:08:37,978 ] 97 werkzeug - INFO -  * Detected change in 'E:\\To_Do_list_Flask\\app.py', reloading

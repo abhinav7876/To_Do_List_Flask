@@ -1,0 +1,12 @@
+[ 2025-12-28 19:47:09,525 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-12-28 19:47:09,529 ] 97 werkzeug - INFO -  * Debugger PIN: 134-261-632
+[ 2025-12-28 19:47:58,426 ] 23 root - INFO - Invalid status type, Status can be only Pending, Completed, or Overdue and cannot be empty. Cannot create task with ID: 16
+[ 2025-12-28 19:47:58,428 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 19:47:58] "[31m[1mPOST /api/tasks HTTP/1.1[0m" 400 -
+[ 2025-12-28 19:48:10,125 ] 23 root - INFO - Invalid status type, Status can be only Pending, Completed, or Overdue and cannot be empty. Cannot create task with ID: 16
+[ 2025-12-28 19:48:10,126 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 19:48:10] "[31m[1mPOST /api/tasks HTTP/1.1[0m" 400 -
+[ 2025-12-28 19:48:28,993 ] 48 root - ERROR - Error creating task: 1062 (23000): Duplicate entry '16' for key 'tasks.PRIMARY'
+[ 2025-12-28 19:48:29,002 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 19:48:29] "[35m[1mPOST /api/tasks HTTP/1.1[0m" 500 -
+[ 2025-12-28 19:51:28,057 ] 166 root - ERROR - Error updating task with ID: 16
+[ 2025-12-28 19:51:28,085 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 19:51:28] "[35m[1mPUT /api/tasks/16 HTTP/1.1[0m" 500 -
+[ 2025-12-28 19:52:55,551 ] 166 root - ERROR - Error updating task with ID: 16
+[ 2025-12-28 19:52:55,560 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 19:52:55] "[35m[1mPUT /api/tasks/16 HTTP/1.1[0m" 500 -

@@ -1,0 +1,9 @@
+[ 2025-12-28 18:06:49,575 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-12-28 18:06:49,579 ] 97 werkzeug - INFO -  * Debugger PIN: 134-261-632
+[ 2025-12-28 18:07:06,114 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 18:07:06] "[31m[1mPOST /api/tasks/3 HTTP/1.1[0m" 405 -
+[ 2025-12-28 18:07:14,008 ] 33 root - ERROR - Error creating task: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '["id"],
+                data["title"],
+                data.get("description"),
+' at line 4
+[ 2025-12-28 18:07:14,017 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 18:07:14] "[35m[1mPOST /api/tasks HTTP/1.1[0m" 500 -
+[ 2025-12-28 18:07:31,892 ] 97 werkzeug - INFO -  * Detected change in 'E:\\To_Do_list_Flask\\app.py', reloading

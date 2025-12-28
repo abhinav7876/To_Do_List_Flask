@@ -1,0 +1,15 @@
+[ 2025-12-28 18:12:09,480 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-12-28 18:12:09,483 ] 97 werkzeug - INFO -  * Debugger PIN: 134-261-632
+[ 2025-12-28 18:12:16,718 ] 49 root - INFO - Fetched all tasks
+[ 2025-12-28 18:12:16,719 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 18:12:16] "GET /api/tasks HTTP/1.1" 200 -
+[ 2025-12-28 18:12:34,680 ] 77 root - INFO - Fetched all pending tasks
+[ 2025-12-28 18:12:34,680 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 18:12:34] "GET /api/tasks/pending HTTP/1.1" 200 -
+[ 2025-12-28 18:12:48,298 ] 63 root - INFO - Fetched all completed tasks
+[ 2025-12-28 18:12:48,299 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 18:12:48] "GET /api/tasks/completed HTTP/1.1" 200 -
+[ 2025-12-28 18:12:58,890 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 18:12:58] "[31m[1mPUT /api/tasks/completed HTTP/1.1[0m" 405 -
+[ 2025-12-28 18:13:05,646 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 18:13:05] "[33mPUT /api/tasks/completed/5 HTTP/1.1[0m" 404 -
+[ 2025-12-28 18:13:13,307 ] 101 root - INFO - Task updated with ID: 5
+[ 2025-12-28 18:13:13,307 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 18:13:13] "PUT /api/tasks/5 HTTP/1.1" 200 -
+[ 2025-12-28 18:13:24,025 ] 63 root - INFO - Fetched all completed tasks
+[ 2025-12-28 18:13:24,025 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 18:13:24] "GET /api/tasks/completed HTTP/1.1" 200 -
+[ 2025-12-28 18:18:05,151 ] 97 werkzeug - INFO -  * Detected change in 'E:\\To_Do_list_Flask\\app.py', reloading

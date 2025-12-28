@@ -1,0 +1,9 @@
+[ 2025-12-28 19:13:12,684 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-12-28 19:13:12,687 ] 97 werkzeug - INFO -  * Debugger PIN: 134-261-632
+[ 2025-12-28 19:14:01,419 ] 41 root - INFO - Task created with ID: 11
+[ 2025-12-28 19:14:01,420 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 19:14:01] "[35m[1mPOST /api/tasks HTTP/1.1[0m" 201 -
+[ 2025-12-28 19:14:37,901 ] 174 root - INFO - Task deleted with ID: 10
+[ 2025-12-28 19:14:37,902 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 19:14:37] "DELETE /api/tasks/10 HTTP/1.1" 200 -
+[ 2025-12-28 19:14:50,906 ] 85 root - INFO - Fetched task with ID: 10
+[ 2025-12-28 19:14:50,907 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 19:14:50] "GET /api/tasks/10 HTTP/1.1" 200 -
+[ 2025-12-28 19:19:38,246 ] 97 werkzeug - INFO -  * Detected change in 'E:\\To_Do_list_Flask\\app.py', reloading

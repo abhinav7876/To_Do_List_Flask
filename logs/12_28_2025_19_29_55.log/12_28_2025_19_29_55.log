@@ -1,0 +1,9 @@
+[ 2025-12-28 19:29:55,660 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-12-28 19:29:55,663 ] 97 werkzeug - INFO -  * Debugger PIN: 134-261-632
+[ 2025-12-28 19:30:02,861 ] 25 root - INFO - Status cannot be empty for task created with ID: 15
+[ 2025-12-28 19:30:02,863 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 19:30:02] "[31m[1mPOST /api/tasks HTTP/1.1[0m" 400 -
+[ 2025-12-28 19:30:56,582 ] 30 root - INFO - Cannot create task with due date less than current date for task created with ID: and status: 15
+[ 2025-12-28 19:30:56,583 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 19:30:56] "[31m[1mPOST /api/tasks HTTP/1.1[0m" 400 -
+[ 2025-12-28 19:38:17,106 ] 45 root - INFO - Task created with ID: 15
+[ 2025-12-28 19:38:17,107 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 19:38:17] "[35m[1mPOST /api/tasks HTTP/1.1[0m" 201 -
+[ 2025-12-28 19:44:09,130 ] 97 werkzeug - INFO -  * Detected change in 'E:\\To_Do_list_Flask\\app.py', reloading

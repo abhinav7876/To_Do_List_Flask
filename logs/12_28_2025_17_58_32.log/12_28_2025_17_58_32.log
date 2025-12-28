@@ -1,0 +1,15 @@
+[ 2025-12-28 17:58:32,299 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-12-28 17:58:32,303 ] 97 werkzeug - INFO -  * Debugger PIN: 134-261-632
+[ 2025-12-28 17:59:22,012 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 17:59:22] "GET /add HTTP/1.1" 200 -
+[ 2025-12-28 17:59:28,113 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 17:59:28] "GET / HTTP/1.1" 200 -
+[ 2025-12-28 17:59:31,159 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 17:59:31] "GET / HTTP/1.1" 200 -
+[ 2025-12-28 17:59:35,007 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 17:59:35] "GET / HTTP/1.1" 200 -
+[ 2025-12-28 17:59:43,505 ] 33 root - ERROR - Error creating task: 1062 (23000): Duplicate entry '2' for key 'tasks.PRIMARY'
+[ 2025-12-28 17:59:43,514 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 17:59:43] "[35m[1mPOST /api/tasks HTTP/1.1[0m" 500 -
+[ 2025-12-28 18:00:42,796 ] 31 root - INFO - Task created with ID: 3
+[ 2025-12-28 18:00:42,798 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 18:00:42] "[35m[1mPOST /api/tasks HTTP/1.1[0m" 201 -
+[ 2025-12-28 18:01:37,587 ] 74 root - INFO - Task updated with ID: 3
+[ 2025-12-28 18:01:37,588 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 18:01:37] "PUT /api/tasks/3 HTTP/1.1" 200 -
+[ 2025-12-28 18:02:05,399 ] 88 root - INFO - Task deleted with ID: 3
+[ 2025-12-28 18:02:05,399 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 18:02:05] "DELETE /api/tasks/3 HTTP/1.1" 200 -
+[ 2025-12-28 18:06:48,691 ] 97 werkzeug - INFO -  * Detected change in 'E:\\To_Do_list_Flask\\app.py', reloading

@@ -1,0 +1,7 @@
+[ 2025-12-28 18:27:09,208 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-12-28 18:27:09,212 ] 97 werkzeug - INFO -  * Debugger PIN: 134-261-632
+[ 2025-12-28 18:27:15,241 ] 54 root - INFO - Fetched all tasks
+[ 2025-12-28 18:27:15,242 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 18:27:15] "GET /api/tasks HTTP/1.1" 200 -
+[ 2025-12-28 18:27:23,888 ] 36 root - ERROR - Error creating task: '<' not supported between instances of 'str' and 'datetime.date'
+[ 2025-12-28 18:27:23,894 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 18:27:23] "[35m[1mPOST /api/tasks HTTP/1.1[0m" 500 -
+[ 2025-12-28 18:29:47,435 ] 97 werkzeug - INFO -  * Detected change in 'E:\\To_Do_list_Flask\\app.py', reloading

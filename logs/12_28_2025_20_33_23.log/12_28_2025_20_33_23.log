@@ -1,0 +1,10 @@
+[ 2025-12-28 20:33:23,988 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-12-28 20:33:23,991 ] 97 werkzeug - INFO -  * Debugger PIN: 134-261-632
+[ 2025-12-28 20:33:30,699 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 20:33:30] "GET / HTTP/1.1" 200 -
+[ 2025-12-28 20:33:31,847 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 20:33:31] "GET /add HTTP/1.1" 200 -
+[ 2025-12-28 20:33:40,340 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 20:33:40] "[32mPOST /add HTTP/1.1[0m" 302 -
+[ 2025-12-28 20:33:40,761 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 20:33:40] "GET / HTTP/1.1" 200 -
+[ 2025-12-28 20:35:26,160 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 20:35:26] "GET /add HTTP/1.1" 200 -
+[ 2025-12-28 20:35:37,438 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 20:35:37] "[32mPOST /add HTTP/1.1[0m" 302 -
+[ 2025-12-28 20:35:37,877 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 20:35:37] "GET / HTTP/1.1" 200 -
+[ 2025-12-28 20:36:41,876 ] 97 werkzeug - INFO -  * Detected change in 'E:\\To_Do_list_Flask\\app.py', reloading

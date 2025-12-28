@@ -1,0 +1,4 @@
+[ 2025-12-28 19:23:15,997 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-12-28 19:23:16,001 ] 97 werkzeug - INFO -  * Debugger PIN: 134-261-632
+[ 2025-12-28 19:23:22,814 ] 27 root - INFO - Cannot create task with due date less than current date for task created with ID: and status: 14
+[ 2025-12-28 19:23:22,815 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 19:23:22] "[31m[1mPOST /api/tasks HTTP/1.1[0m" 400 -

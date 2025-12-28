@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To-Do App</title>
+</head>
+<body>
+    <h1>Flask To-Do (MySQL)</h1>
+        <a href="/add">Add Task</a>
+        <ul>
+            {% for task in tasks %}
+                <li>
+                    <b>{{ task.ID }}</b>
+                    <b>{{ task.title }}</b> - {{ task.status }} <br>
+                    {{ task.description }} | Due: {{ task.due_date }}
+                </li>
+            {% endfor %}
+        </ul>
+</body>
+</html>
+
+
+
