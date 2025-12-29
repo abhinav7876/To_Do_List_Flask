@@ -45,18 +45,33 @@ python app.py
 Step 9- Open up localhost
 http://127.0.0.1:5000/
 
-Step 10- Run test:
-pytest -v
+
+**Testing**
+
+Total **22 test cases** for different API endpoints are integrated for testing in this TO-Do Application
+
+STEPS- Run the following command:
+
+- pytest -v
 
 
-Alternatively check in Postman with below json request format:
+------------------------------------------------------------------------------------------------------------------
+
+Alternatively check in Postman with below json request format: 
 - Request Body (JSON)
+
 {
+
     "description": "in evening",
+
     "due_date": "2025-12-25",
+
     "ID": 1,
+
     "status": "Completed",
+
     "title": "My task"
+
 }
 
 ---------------------------------------------------------------------------------------------------------------------------
@@ -123,6 +138,10 @@ API ENDPOINT: http://127.0.0.1:5000/add_task
 Error code:201 [CREATED]
 Automatically record will get store in 'tasks' table in MySQL db
 
+![alt text](image-4.png)
+
+![alt text](image-5.png)
+
 ----------------------------------------
 Check above created task id:
 Method: GET  
@@ -147,6 +166,8 @@ API ENDPOINT: http://127.0.0.1:5000/tasks/1
 ]
 
 Error code:200 [OK]
+
+![alt text](image-3.png)
 
 ----------------------------------------------------------------------------------------------------------------------------------
 
@@ -179,3 +200,5 @@ API ENDPOINT: http://127.0.0.1:5000/add_task
 }
 
 Error code:409 [CONFLICT]
+
+![alt text](image-2.png)

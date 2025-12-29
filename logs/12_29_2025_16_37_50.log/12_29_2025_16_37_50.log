@@ -1,0 +1,17 @@
+[ 2025-12-29 16:37:50,589 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-12-29 16:37:50,624 ] 97 werkzeug - INFO -  * Debugger PIN: 134-261-632
+[ 2025-12-29 16:38:17,706 ] 228 root - INFO - Task deleted with ID: 1
+[ 2025-12-29 16:38:17,707 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 16:38:17] "DELETE /tasks/1 HTTP/1.1" 200 -
+[ 2025-12-29 16:38:55,577 ] 63 root - INFO - Task created with ID: 1
+[ 2025-12-29 16:38:55,578 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 16:38:55] "[35m[1mPOST /add_task HTTP/1.1[0m" 201 -
+[ 2025-12-29 16:40:11,154 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 16:40:11] "[33mPOST /1 HTTP/1.1[0m" 404 -
+[ 2025-12-29 16:40:15,503 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 16:40:15] "[33mGET /1 HTTP/1.1[0m" 404 -
+[ 2025-12-29 16:40:23,335 ] 115 root - INFO - Fetched task with ID: 1
+[ 2025-12-29 16:40:23,336 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 16:40:23] "GET /tasks/1 HTTP/1.1" 200 -
+[ 2025-12-29 16:41:27,088 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 16:41:27] "[31m[1mPOST /add_task HTTP/1.1[0m" 409 -
+[ 2025-12-29 16:42:16,641 ] 115 root - INFO - Fetched task with ID: 1
+[ 2025-12-29 16:42:16,641 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 16:42:16] "GET /tasks/1 HTTP/1.1" 200 -
+[ 2025-12-29 16:43:26,741 ] 228 root - INFO - Task deleted with ID: 1
+[ 2025-12-29 16:43:26,742 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 16:43:26] "DELETE /tasks/1 HTTP/1.1" 200 -
+[ 2025-12-29 16:43:37,292 ] 63 root - INFO - Task created with ID: 1
+[ 2025-12-29 16:43:37,293 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 16:43:37] "[35m[1mPOST /add_task HTTP/1.1[0m" 201 -
