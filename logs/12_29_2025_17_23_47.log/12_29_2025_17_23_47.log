@@ -1,0 +1,11 @@
+[ 2025-12-29 17:23:47,417 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-12-29 17:23:47,453 ] 97 werkzeug - INFO -  * Debugger PIN: 134-261-632
+[ 2025-12-29 17:23:54,338 ] 94 root - INFO - Fetched all tasks
+[ 2025-12-29 17:23:54,339 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 17:23:54] "GET /tasks HTTP/1.1" 200 -
+[ 2025-12-29 17:27:46,727 ] 160 root - INFO - Fetched all overdue tasks
+[ 2025-12-29 17:27:46,727 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 17:27:46] "GET /tasks/overdue HTTP/1.1" 200 -
+[ 2025-12-29 17:29:39,795 ] 210 root - INFO - Task updated with ID: 1
+[ 2025-12-29 17:29:39,796 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 17:29:39] "PUT /tasks/1 HTTP/1.1" 200 -
+[ 2025-12-29 17:31:27,291 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 17:31:27] "[33mPUT /tasks/1 HTTP/1.1[0m" 404 -
+[ 2025-12-29 17:31:40,520 ] 228 root - INFO - Task deleted with ID: 1
+[ 2025-12-29 17:31:40,521 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 17:31:40] "DELETE /tasks/1 HTTP/1.1" 200 -
