@@ -1,0 +1,11 @@
+[ 2025-12-29 05:11:16,463 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[ 2025-12-29 05:11:16,463 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2025-12-29 05:11:16,484 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-12-29 05:11:16,934 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-12-29 05:11:17,120 ] 97 werkzeug - INFO -  * Debugger PIN: 134-261-632
+[ 2025-12-29 05:11:20,330 ] 63 root - INFO - Task created with ID: 2901
+[ 2025-12-29 05:11:20,331 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 05:11:20] "[35m[1mPOST /add_task HTTP/1.1[0m" 201 -
+[ 2025-12-29 05:14:38,106 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 05:14:38] "[31m[1mPOST /add_task HTTP/1.1[0m" 409 -
+[ 2025-12-29 05:21:09,896 ] 97 werkzeug - INFO -  * Detected change in 'E:\\To_Do_list_Flask\\app.py', reloading
+[ 2025-12-29 05:21:10,430 ] 97 werkzeug - INFO -  * Restarting with stat
