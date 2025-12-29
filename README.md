@@ -12,21 +12,29 @@ A **Flask-based To-Do** application that manages:
 **Steps for Project Setup**-
 
 Step 1-Clone git repository:
+
 git clone https://github.com/abhinav7876/To_Do_List_Flask.git
 
 Step 2- Create virtual environment:
+
 conda create -p venv python==3.11 -y
 
 Step 3- Activate virtual environment:
+
 conda activate venv/
 
 Step 4- Install requirements in virtual environment:
+
 pip install -r requirements.txt
 
 Step 5- Database Setup
+
 Run the following sql queries in MySQL app:
+
 - CREATE DATABASE todo_db;
+
 - USE todo_db;
+
 - CREATE TABLE tasks (
         id INT PRIMARY KEY,
         title VARCHAR(250) NOT NULL,
@@ -40,9 +48,11 @@ Step 6- Rename dummy_env to .env file
 Step 7- Update DB password in .env file
 
 Step 8-Launch the app:
+
 python app.py
 
 Step 9- Open up localhost
+
 http://127.0.0.1:5000/
 
 
