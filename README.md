@@ -1,15 +1,16 @@
-A simple Flask-based To-Do application that supports:
+A **Flask-based To-Do** application that supports:
 ->RESTful CRUD APIs
 ->HTML templates for UI
 ->MySQL database integration
 ->Validation, logging, and exception handling
 ->Automated testing using pytest
 
-Tech Stack:
+**Tech Stack**:
 ->Backend: Flask (Python)
 ->Database: MySQL
 ->Testing: pytest
 
+**Steps**-
 
 Step 1-Clone git repository:
 git clone https://github.com/abhinav7876/To_Do_List_Flask.git
@@ -58,21 +59,25 @@ Request Body (JSON)
     "status": "Completed",
     "title": "My task"
 }
---------------------------------------------------------------------------------------------------------------------------
-API Endpoints Description:
 
-Method: GET        ENDPOINT: /                    DESCRIPTION: Loads home page
-Method: GET        ENDPOINT: /tasks               DESCRIPTION: Fetch all tasks
-Method: GET        ENDPOINT: /tasks/{id}          DESCRIPTION: Fetch task with id
-Method: GET        ENDPOINT: /tasks/completed     DESCRIPTION: Fetch all completed tasks
-Method: GET        ENDPOINT: /tasks/pending       DESCRIPTION: Fetch all pending tasks( includes overdue tasks)
-Method: GET        ENDPOINT: /tasks/overdue       DESCRIPTION: Fetch all overdue tasks
-Method: POST       ENDPOINT: /add_task            DESCRIPTION: Create new task(with proper data validations)
-Method: PUT        ENDPOINT: /tasks/{id}          DESCRIPTION: Updates existing task
-Method: DELETE     ENDPOINT: /tasks/{id}          DESCRIPTION: Deletes existing task
+---------------------------------------------------------------------------------------------------------------------------
+
+**API Endpoints Description**:
+
+| Method | Endpoint            | Description |
+|------|--------------------|------------|
+| GET | `/` | Loads home page |
+| GET | `/tasks` | Fetch all tasks |
+| GET | `/tasks/{id}` | Fetch task with id |
+| GET | `/tasks/completed` | Fetch all completed tasks |
+| GET | `/tasks/pending` | Fetch all pending tasks (includes overdue tasks) |
+| GET | `/tasks/overdue` | Fetch all overdue tasks |
+| POST | `/add_task` | Create new task (with proper validations) |
+| PUT | `/tasks/{id}` | Update existing task |
+| DELETE | `/tasks/{id}` | Delete existing task |
 
 ----------------------------------------------------------------------------------------------------------------------------
-All necessary data validations are added in all above API endpoints.
+**Data validations added in all above API endpoints**.
 
 - Task ID must be unique
 - Title is mandatory
@@ -88,10 +93,11 @@ All necessary data validations are added in all above API endpoints.
 - All necessary data validations while creating, updating and deleting tasks are handled with proper error codes
 
 -----------------------------------------------------------------------------------------------------------------------------------
-Example 1 : Creating new task
+Example 1 : **Creating new task**
 Method: POST  
 API ENDPOINT: http://127.0.0.1:5000/add_task
-=====================================================
+
+--------------------------------------------------
 Request Body (JSON)-
 {
     "description": "in evening",
@@ -109,7 +115,8 @@ Response from API-
 
 Error code:201 [CREATED]
 Automatically record will get store in 'tasks' table in MySQL db
-==========================================================
+
+-----------------------------------------------------------------
 Check above created record:
 Method: GET  
 API ENDPOINT: http://127.0.0.1:5000/tasks/1
@@ -127,15 +134,14 @@ Response from API-
 ]
 
 Error code:200 [OK]
-============================================================
 
 ----------------------------------------------------------------------------------------------------------------------------------
 
-Example 2 : Trying creating duplicate task id
+Example 2 : **Trying creating duplicate task id**
 Method: POST  
 API ENDPOINT: http://127.0.0.1:5000/add_task
 
-=============================================================
+---------------------------------------------------------------------------
 Request Body-
 {
     "description": "in evening",
@@ -152,4 +158,3 @@ Response from API containing error message-
 }
 
 Error code:409 [CONFLICT]
-===============================================================
