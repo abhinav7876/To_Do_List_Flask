@@ -1,14 +1,14 @@
 A **Flask-based To-Do** application that supports:
-->RESTful CRUD APIs
-->HTML templates for UI
-->MySQL database integration
-->Validation, logging, and exception handling
-->Automated testing using pytest
+- RESTful CRUD APIs
+- HTML templates for UI
+- MySQL database integration
+- Validation, logging, and exception handling
+- Automated testing using pytest
 
 **Tech Stack**:
-->Backend: Flask (Python)
-->Database: MySQL
-->Testing: pytest
+- Backend: Flask (Python)
+- Database: MySQL
+- Testing: pytest
 
 **Steps**-
 
@@ -25,10 +25,10 @@ Step 4- Install requirements in virtual environment:
 pip install -r requirements.txt
 
 Step 5- Database Setup
-     Run the following sql queries in MySQL app:
-    ->CREATE DATABASE todo_db;
-    ->USE todo_db;
-    ->CREATE TABLE tasks (
+Run the following sql queries in MySQL app:
+- CREATE DATABASE todo_db;
+- USE todo_db;
+- CREATE TABLE tasks (
         id INT PRIMARY KEY,
         title VARCHAR(250) NOT NULL,
         description VARCHAR(250),
@@ -51,7 +51,7 @@ pytest -v
 
 
 Alternatively check in Postman with below json request format:
-Request Body (JSON)
+- Request Body (JSON)
 {
     "description": "in evening",
     "due_date": "2025-12-25",
@@ -98,19 +98,28 @@ Method: POST
 API ENDPOINT: http://127.0.0.1:5000/add_task
 
 --------------------------------------------------
-Request Body (JSON)-
+- Request Body (JSON)-
+
 {
+
     "description": "in evening",
+
     "due_date": "2025-12-25",
+
     "ID": 1,
+
     "status": "Completed",
+
     "title": "My task"
+    
 }
 
-Response from API-
+- Response from API-
 
 {
+
     "message": "Task created with id 1 and status Completed"
+
 }
 
 Error code:201 [CREATED]
@@ -121,15 +130,21 @@ Check above created record:
 Method: GET  
 API ENDPOINT: http://127.0.0.1:5000/tasks/1
 
-Response from API-
+- Response from API-
 
 [
     {
+
     "description": "in evening",
+
     "due_date": "2025-12-25",
+
     "ID": 1,
+
     "status": "Completed",
+
     "title": "My task"
+
 }
 ]
 
@@ -142,19 +157,28 @@ Method: POST
 API ENDPOINT: http://127.0.0.1:5000/add_task
 
 ---------------------------------------------------------------------------
-Request Body-
+- Request Body-
+
 {
+
     "description": "in evening",
+
     "due_date": "2025-12-25",
+
     "ID": 1,
+
     "status": "Completed",
+
     "title": "My task"
+
 }
 
-Response from API containing error message-
+- Response from API containing error message-
 
 {
+
     "error": "Duplicate ID, Task Id already present"
+
 }
 
 Error code:409 [CONFLICT]
