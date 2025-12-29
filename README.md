@@ -1,16 +1,15 @@
-A **Flask-based To-Do** application that supports:
-- RESTful CRUD APIs
-- HTML templates for UI
-- MySQL database integration
-- Validation, logging, and exception handling
-- Automated testing using pytest
+A **Flask-based To-Do** application that manages:
+- Adding new tasks in TO-DO list
+- Checking (All/ Completed/ Pending/ Overdue) tasks from TO-DO list
+- Modifying existing tasks in TO-DO list
+- Deleting existing tasks from TO-DO list
 
 **Tech Stack**:
 - Backend: Flask (Python)
 - Database: MySQL
 - Testing: pytest
 
-**Steps**-
+**Steps for Project Setup**-
 
 Step 1-Clone git repository:
 git clone https://github.com/abhinav7876/To_Do_List_Flask.git
@@ -97,7 +96,6 @@ Example 1 : **Creating new task**
 Method: POST  
 API ENDPOINT: http://127.0.0.1:5000/add_task
 
---------------------------------------------------
 - Request Body (JSON)-
 
 {
@@ -111,7 +109,7 @@ API ENDPOINT: http://127.0.0.1:5000/add_task
     "status": "Completed",
 
     "title": "My task"
-    
+
 }
 
 - Response from API-
@@ -125,8 +123,8 @@ API ENDPOINT: http://127.0.0.1:5000/add_task
 Error code:201 [CREATED]
 Automatically record will get store in 'tasks' table in MySQL db
 
------------------------------------------------------------------
-Check above created record:
+----------------------------------------
+Check above created task id:
 Method: GET  
 API ENDPOINT: http://127.0.0.1:5000/tasks/1
 
@@ -156,7 +154,6 @@ Example 2 : **Trying creating duplicate task id**
 Method: POST  
 API ENDPOINT: http://127.0.0.1:5000/add_task
 
----------------------------------------------------------------------------
 - Request Body-
 
 {
